@@ -10,25 +10,24 @@
         crossorigin="anonymous">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.js"></script>
 </head>
-<div class="container">
+<div class="container justify-content-center">
     <div class="row justify-content-center">
-        <div class="col-12">
-            <div class="container">
-                <h1 class="display-6">Train Scheduler</h1>
-                <p class="lead">Complete the form below to add your train.</p>
+        <div class="col-8 ">
+            <div class="container headline">
+                <h3 class="display-6">Train Scheduler</h1>
             </div>
         </div>
     </div>
     <div class="row">
-        <div class="col-12">
-            <table class="table table-striped">
+        <div class="col-8 offset-2">
+            <table class="table">
                 <thead>
                     <tr>
-                        <th scope="col">Train Name</th>
-                        <th scope="col">Destination</th>
-                        <th scope="col">Frequency (min)</th>
-                        <th scope="col">Next Arrival</th>
-                        <th scope="col">Minutes Away</th>
+                        <th class="tableHead" scope="col">Train Name</th>
+                        <th class="tableHead" scope="col">Destination</th>
+                        <th class="tableHead" scope="col">Frequency (min)</th>
+                        <th class="tableHead" scope="col">Next Arrival</th>
+                        <th class="tableHead" scope="col">Minutes Away</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -37,25 +36,25 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-12">
+        <div class="col-6 offset-3">
             <form>
-                <div class="form-group">
+                <div class="form-group  input-sm">
                     <label for="train-name">Train Name</label>
                     <input class="form-control" id="train-name" placeholder="Train Name">
                 </div>
-                <div class="form-group">
+                <div class="form-group input-sm ">
                     <label for="destination">Destination</label>
                     <input class="form-control" id="destination" placeholder="Destination">
                 </div>
-                <div class="form-group">
-                    <label for="first-train-time">First Train Time (HH:mm )</label>
-                    <input class="form-control" id="first-train-time" placeholder="First Train Time">
+                <div class="form-group ">
+                    <label for="first-train-time">First Departure (HH:mm)</label>
+                    <input class="form-control" id="first-train-time" placeholder="First Departure (HH:mm)">
                 </div>
-                <div class="form-group">
+                <div class="form-group ">
                     <label for="frequency">Frequency (min)</label>
-                    <input class="form-control" id="frequency" placeholder="Frequency">
+                    <input class="form-control" id="frequency" placeholder="Frequency (min)">
                 </div>
-                <button type="submit" class="btn btn-primary">Submit</button>
+                <button type="submit" class="btn btn-primary ">Submit</button>
             </form>
         </div>
     </div>

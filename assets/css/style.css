@@ -1,5 +1,17 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("SUBWT___.otf");
+}
+
 body {
-    background-image: url("../images/nistri.png")
+    background-image: url("../images/train2.jpg");
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 .table {
@@ -15,14 +27,27 @@ form {
 padding: 10px;
 }
 
+div.form-group {
+    /* height: 45px; */
+}
+
 thead {
     background-color: navy;
 }
 
-tr {
-    border-style: solid;
-    border-color: black;
-    background-color: white;
-
+.tableHead {
+    color: yellow;
 }
 
+tr {
+    border-style: solid;
+    border-color: white;
+    background-color: black;
+    font-family: myFirstFont;
+    color: white;
+}
+
+.headline {
+    color:white;
+    text-align: center;
+}
