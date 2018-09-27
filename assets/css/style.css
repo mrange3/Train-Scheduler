@@ -1,0 +1,28 @@
+body {
+    background-image: url("../images/nistri.png")
+}
+
+.table {
+    border-style: solid;
+    border-color: black;
+    background-color: none;
+}
+
+form {
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+padding: 10px;
+}
+
+thead {
+    background-color: navy;
+}
+
+tr {
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+
+}
+
